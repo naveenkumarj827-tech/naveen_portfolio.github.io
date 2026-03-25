@@ -43,6 +43,17 @@ body {
     transition: all .4s ease-in-out;
 }
 
+// Particle Canvas
+.particle-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+
 a {
     display: inline-block;
     text-decoration: none;
@@ -71,6 +82,8 @@ section {
     transform: translateY(-100%) scale(0);
     transition: all .4s ease-in-out;
     background-color: var(--color-primary);
+    position: relative;
+    z-index: 2;
 }
 
 
