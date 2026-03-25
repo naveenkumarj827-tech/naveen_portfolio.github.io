@@ -1,2 +1,16 @@
 # PHPStorm
 .idea
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Dependencies lock files (optional, for sharing exact versions)
+package-lock.json
+yarn.lock
